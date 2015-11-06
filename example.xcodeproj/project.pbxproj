@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B85E6B54191130C800DBDA94 /* tMain.m in Sources */ = {isa = PBXBuildFile; fileRef = B85E6B53191130C800DBDA94 /* tMain.m */; };
 		B86A510F18F6C01A00B5054B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86A510E18F6C01A00B5054B /* Foundation.framework */; };
 		B86A511118F6C01A00B5054B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86A511018F6C01A00B5054B /* CoreGraphics.framework */; };
 		B86A511318F6C01A00B5054B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86A511218F6C01A00B5054B /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B85E6B52191130C800DBDA94 /* tMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tMain.h; sourceTree = "<group>"; };
+		B85E6B53191130C800DBDA94 /* tMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tMain.m; sourceTree = "<group>"; };
 		B86A510B18F6C01A00B5054B /* example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86A510E18F6C01A00B5054B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B86A511018F6C01A00B5054B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -92,6 +95,8 @@
 				B86A513918F6C01A00B5054B /* exampleTests */,
 				B86A510D18F6C01A00B5054B /* Frameworks */,
 				B86A510C18F6C01A00B5054B /* Products */,
+				B85E6B52191130C800DBDA94 /* tMain.h */,
+				B85E6B53191130C800DBDA94 /* tMain.m */,
 			);
 			sourceTree = "<group>";
 		};
@@ -263,6 +268,7 @@
 				B86A511B18F6C01A00B5054B /* main.m in Sources */,
 				B86A512818F6C01A00B5054B /* tModelController.m in Sources */,
 				B86A512518F6C01A00B5054B /* tDataViewController.m in Sources */,
+				B85E6B54191130C800DBDA94 /* tMain.m in Sources */,
 				B86A512218F6C01A00B5054B /* tRootViewController.m in Sources */,
 				B86A511F18F6C01A00B5054B /* tAppDelegate.m in Sources */,
 			);
@@ -471,6 +477,7 @@
 				B86A514518F6C01A00B5054B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B86A514618F6C01A00B5054B /* Build configuration list for PBXNativeTarget "exampleTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +486,7 @@
 				B86A514818F6C01A00B5054B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
